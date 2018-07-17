@@ -14,6 +14,8 @@
 		FE1D273F20FD8E6200306080 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D273D20FD8E6200306080 /* Constraints.swift */; };
 		FE1D274020FD8E6200306080 /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D273E20FD8E6200306080 /* RGB.swift */; };
 		FE1D274420FD911800306080 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1D274320FD911800306080 /* Default-568h@2x.png */; };
+		FE1D274620FD98A600306080 /* CookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D274520FD98A600306080 /* CookViewController.swift */; };
+		FE1D274820FD9A2C00306080 /* EatOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D274720FD9A2C00306080 /* EatOutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		FE1D273D20FD8E6200306080 /* Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
 		FE1D273E20FD8E6200306080 /* RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
 		FE1D274320FD911800306080 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FE1D274520FD98A600306080 /* CookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookViewController.swift; sourceTree = "<group>"; };
+		FE1D274720FD9A2C00306080 /* EatOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatOutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,10 @@
 			children = (
 				FE1D274120FD8E7400306080 /* Singleton */,
 				FE1D272420FD82C400306080 /* MainViewController.swift */,
+				FE1D274520FD98A600306080 /* CookViewController.swift */,
 				FE1D274220FD8E8B00306080 /* Resource Files */,
 				FE1D273820FD8E2B00306080 /* Extensions */,
+				FE1D274720FD9A2C00306080 /* EatOutViewController.swift */,
 			);
 			path = FoodFinder;
 			sourceTree = "<group>";
@@ -167,8 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE1D272520FD82C400306080 /* MainViewController.swift in Sources */,
+				FE1D274620FD98A600306080 /* CookViewController.swift in Sources */,
 				FE1D273F20FD8E6200306080 /* Constraints.swift in Sources */,
 				FE1D272320FD82C400306080 /* AppDelegate.swift in Sources */,
+				FE1D274820FD9A2C00306080 /* EatOutViewController.swift in Sources */,
 				FE1D274020FD8E6200306080 /* RGB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

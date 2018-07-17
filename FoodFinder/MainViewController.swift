@@ -24,8 +24,15 @@ class MainViewController: UIViewController {
         button.titleLabel?.font = UIFont(name: "ArialMT", size: 60)
         button.setTitleColor(UIColor.white, for: .normal)
         button.backgroundColor = .black
+        button.addTarget(self, action: #selector(handleCookButton), for: .touchUpInside)
         return button
     }()
+    
+   @objc func handleCookButton() {
+        print(123)
+    }
+    
+    
     
     let eatOutButton: UIButton =  {
         let button = UIButton(type: .system)
@@ -33,11 +40,16 @@ class MainViewController: UIViewController {
         button.titleLabel?.font = UIFont(name: "ArialMT", size: 60)
         button.setTitleColor(UIColor.white, for: .normal)
         button.backgroundColor = .black
+        button.addTarget(self, action: #selector(handleEatOutButton), for: .touchUpInside)
         return button
     }()
+    
+    @objc func handleEatOutButton() {
+        print(1234)
+    }
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+    super.viewDidLoad()
         view.backgroundColor = .magenta
         
         headerLabelConstraints()
