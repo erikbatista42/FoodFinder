@@ -11,6 +11,18 @@ import UIKit
 
 class RestaurantCusineSelectorViewController: UIViewController {
     
+    var restaurantNames = ["Cafe"]
+    
+    var restaurantImages = ["empty.jpg"]
+    
+    var restaurantDescription = ["description"]
+    
+    var restaurantLocations = ["San Fran"]
+    
+    var menuWebsites = ["menu.com"]
+    
+    var restaurantNumbers = ["347"]
+    
     @IBOutlet weak var italianButton: UIButton!
     @IBOutlet weak var chineseButton: UIButton!
     @IBOutlet weak var americanButton: UIButton!
