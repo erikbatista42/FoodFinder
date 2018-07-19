@@ -17,6 +17,16 @@
 		4C04E94F20FFF051008EE62D /* RecepieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E94E20FFF051008EE62D /* RecepieViewController.swift */; };
 		4C04E95120FFF065008EE62D /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E95020FFF065008EE62D /* RestaurantViewController.swift */; };
 		4C04E95320FFF5B9008EE62D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E95220FFF5B9008EE62D /* Extensions.swift */; };
+		4C04E95B2101144E008EE62D /* AmericanRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E95A2101144E008EE62D /* AmericanRecipe.swift */; };
+		4C04E95D21011459008EE62D /* ChineseRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E95C21011459008EE62D /* ChineseRecipe.swift */; };
+		4C04E95F2101147E008EE62D /* MediterraneanRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E95E2101147E008EE62D /* MediterraneanRecipe.swift */; };
+		4C04E9612101148A008EE62D /* MexicanRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E9602101148A008EE62D /* MexicanRecipe.swift */; };
+		4C04E96321011492008EE62D /* VeganRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E96221011492008EE62D /* VeganRecipe.swift */; };
+		4C04E969210114DE008EE62D /* VeganRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E964210114DD008EE62D /* VeganRestaurant.swift */; };
+		4C04E96A210114DE008EE62D /* AmericanRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E965210114DD008EE62D /* AmericanRestaurant.swift */; };
+		4C04E96B210114DE008EE62D /* MediterraneanRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E966210114DD008EE62D /* MediterraneanRestaurant.swift */; };
+		4C04E96C210114DE008EE62D /* ChineseRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E967210114DD008EE62D /* ChineseRestaurant.swift */; };
+		4C04E96D210114DE008EE62D /* MexicanRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E968210114DD008EE62D /* MexicanRestaurant.swift */; };
 		E1090F3F770B59839F7E3B73 /* Pods_FoodFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A03DEE2B81FF09F29850B58 /* Pods_FoodFinder.framework */; };
 		FE06233B21000F8000885FF2 /* RecipieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE06233A21000F8000885FF2 /* RecipieModel.swift */; };
 		FE06233D21000F9300885FF2 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE06233C21000F9300885FF2 /* RestaurantModel.swift */; };
@@ -36,6 +46,16 @@
 		4C04E94E20FFF051008EE62D /* RecepieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieViewController.swift; sourceTree = "<group>"; };
 		4C04E95020FFF065008EE62D /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
 		4C04E95220FFF5B9008EE62D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4C04E95A2101144E008EE62D /* AmericanRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmericanRecipe.swift; sourceTree = "<group>"; };
+		4C04E95C21011459008EE62D /* ChineseRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseRecipe.swift; sourceTree = "<group>"; };
+		4C04E95E2101147E008EE62D /* MediterraneanRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediterraneanRecipe.swift; sourceTree = "<group>"; };
+		4C04E9602101148A008EE62D /* MexicanRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexicanRecipe.swift; sourceTree = "<group>"; };
+		4C04E96221011492008EE62D /* VeganRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganRecipe.swift; sourceTree = "<group>"; };
+		4C04E964210114DD008EE62D /* VeganRestaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeganRestaurant.swift; sourceTree = "<group>"; };
+		4C04E965210114DD008EE62D /* AmericanRestaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmericanRestaurant.swift; sourceTree = "<group>"; };
+		4C04E966210114DD008EE62D /* MediterraneanRestaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediterraneanRestaurant.swift; sourceTree = "<group>"; };
+		4C04E967210114DD008EE62D /* ChineseRestaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChineseRestaurant.swift; sourceTree = "<group>"; };
+		4C04E968210114DD008EE62D /* MexicanRestaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MexicanRestaurant.swift; sourceTree = "<group>"; };
 		594E0E5213D5C9EFC41961AA /* Pods-FoodFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodFinder/Pods-FoodFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		7290DF01693E1CEBDA3E4E79 /* Pods-FoodFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodFinder/Pods-FoodFinder.release.xcconfig"; sourceTree = "<group>"; };
 		FE06233A21000F8000885FF2 /* RecipieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipieModel.swift; sourceTree = "<group>"; };
@@ -116,8 +136,34 @@
 		4C04E956210111C8008EE62D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				4C04E95821011400008EE62D /* Recipes */,
+				4C04E9592101141F008EE62D /* Restaurants */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4C04E95821011400008EE62D /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				4C04E95C21011459008EE62D /* ChineseRecipe.swift */,
+				4C04E95A2101144E008EE62D /* AmericanRecipe.swift */,
+				4C04E95E2101147E008EE62D /* MediterraneanRecipe.swift */,
+				4C04E9602101148A008EE62D /* MexicanRecipe.swift */,
+				4C04E96221011492008EE62D /* VeganRecipe.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		4C04E9592101141F008EE62D /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				4C04E967210114DD008EE62D /* ChineseRestaurant.swift */,
+				4C04E965210114DD008EE62D /* AmericanRestaurant.swift */,
+				4C04E966210114DD008EE62D /* MediterraneanRestaurant.swift */,
+				4C04E968210114DD008EE62D /* MexicanRestaurant.swift */,
+				4C04E964210114DD008EE62D /* VeganRestaurant.swift */,
+			);
+			path = Restaurants;
 			sourceTree = "<group>";
 		};
 		D7CEA2E5B4D69B5B4CF021A4 /* Pods */ = {
@@ -272,15 +318,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C04E95B2101144E008EE62D /* AmericanRecipe.swift in Sources */,
+				4C04E969210114DE008EE62D /* VeganRestaurant.swift in Sources */,
 				4C04E93920FFECEB008EE62D /* MainViewController.swift in Sources */,
 				FE06233D21000F9300885FF2 /* RestaurantModel.swift in Sources */,
+				4C04E96D210114DE008EE62D /* MexicanRestaurant.swift in Sources */,
 				4C04E95120FFF065008EE62D /* RestaurantViewController.swift in Sources */,
 				4C04E94B20FFEE19008EE62D /* RecepieCusineSelectorViewController.swift in Sources */,
+				4C04E95D21011459008EE62D /* ChineseRecipe.swift in Sources */,
 				4C04E94F20FFF051008EE62D /* RecepieViewController.swift in Sources */,
 				4C04E93720FFECEB008EE62D /* AppDelegate.swift in Sources */,
+				4C04E96A210114DE008EE62D /* AmericanRestaurant.swift in Sources */,
 				4C04E94D20FFEEC5008EE62D /* RestaurantCusineSelectorViewController.swift in Sources */,
+				4C04E96321011492008EE62D /* VeganRecipe.swift in Sources */,
+				4C04E95F2101147E008EE62D /* MediterraneanRecipe.swift in Sources */,
 				4C04E95320FFF5B9008EE62D /* Extensions.swift in Sources */,
 				FE06233B21000F8000885FF2 /* RecipieModel.swift in Sources */,
+				4C04E9612101148A008EE62D /* MexicanRecipe.swift in Sources */,
+				4C04E96B210114DE008EE62D /* MediterraneanRestaurant.swift in Sources */,
+				4C04E96C210114DE008EE62D /* ChineseRestaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
