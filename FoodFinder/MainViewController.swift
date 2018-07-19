@@ -8,15 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
     
     // API KEY: 7b73680c3e29d6ca906e7897f1e3a829
-
+    @IBOutlet weak var cookButton: UIButton!
+    @IBOutlet weak var eatOutButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-
        setupNavBar()
+        cookButton.layer.cornerRadius = 10
+        cookButton.clipsToBounds = true
+        eatOutButton.layer.cornerRadius = 10
+        eatOutButton.clipsToBounds = true
     }
     
     func setupNavBar() {
@@ -25,6 +29,7 @@ class ViewController: UIViewController {
         navigationController?.navigationBar.isTranslucent = false
         let textAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
         navigationController?.navigationBar.titleTextAttributes = textAttributes
+        navigationController?.navigationBar.tintColor = .white
     }
 
 

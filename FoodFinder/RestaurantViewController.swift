@@ -11,8 +11,11 @@ import UIKit
 
 class RestaurantViewController: UIViewController {
     
+    @IBOutlet weak var restaurantImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        restaurantImageView.layer.cornerRadius = 10
+    restaurantImageView.clipsToBounds = true
     }
 }

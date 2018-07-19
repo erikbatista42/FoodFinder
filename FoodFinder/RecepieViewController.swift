@@ -11,8 +11,11 @@ import UIKit
 
 class RecepieViewController: UIViewController {
     
+    @IBOutlet weak var recipieImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        recipieImageView.layer.cornerRadius = 10
+        recipieImageView.clipsToBounds = true
     }
 }
