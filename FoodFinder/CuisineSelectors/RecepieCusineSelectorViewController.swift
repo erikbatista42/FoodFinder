@@ -8,15 +8,17 @@
 
 import Foundation
 import UIKit
+import SwiftyJSON
+import Alamofire
 
 class RecepieCusineSelectorViewController: UIViewController {
     
     @IBOutlet weak var italianButton: UIButton!
     @IBOutlet weak var chineseButton: UIButton!
     @IBOutlet weak var americanButton: UIButton!
-    @IBOutlet weak var MediterraneanButton: UIButton!
-    @IBOutlet weak var MexicanButton: UIButton!
-    @IBOutlet weak var VeganButton: UIButton!
+    @IBOutlet weak var mediterraneanButton: UIButton!
+    @IBOutlet weak var mexicanButton: UIButton!
+    @IBOutlet weak var veganButton: UIButton!
     
     
     override func viewDidLoad() {
@@ -34,13 +36,13 @@ class RecepieCusineSelectorViewController: UIViewController {
         americanButton.layer.cornerRadius = 10
         americanButton.clipsToBounds = true
         
-        MediterraneanButton.layer.cornerRadius = 10
-        MediterraneanButton.clipsToBounds = true
+        mediterraneanButton.layer.cornerRadius = 10
+        mediterraneanButton.clipsToBounds = true
         
-        MexicanButton.layer.cornerRadius = 10
-        MexicanButton.clipsToBounds = true
+        mexicanButton.layer.cornerRadius = 10
+        mexicanButton.clipsToBounds = true
         
-        VeganButton.layer.cornerRadius = 10
-        VeganButton.clipsToBounds = true
+        veganButton.layer.cornerRadius = 10
+        veganButton.clipsToBounds = true
     }
 }

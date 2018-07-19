@@ -8,6 +8,8 @@
 
 import Foundation
 import UIKit
+import SwiftyJSON
+import Alamofire
 
 class RestaurantViewController: UIViewController {
     

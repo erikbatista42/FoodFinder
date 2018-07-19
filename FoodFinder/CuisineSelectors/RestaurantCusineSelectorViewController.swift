@@ -8,8 +8,13 @@
 
 import Foundation
 import UIKit
+import SwiftyJSON
+import Alamofire
 
 class RestaurantCusineSelectorViewController: UIViewController {
+    
+    
+    // API KEY: 7b73680c3e29d6ca906e7897f1e3a829
     
     var restaurantNames = ["Cafe"]
     
@@ -32,7 +37,25 @@ class RestaurantCusineSelectorViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         makeButtonsRound()
+        apiRequest()
+        
+    }
+    
+    func apiRequest() {
+        Alamofire.request("https://developers.zomato.com/api/v2.1/restaurant?res_id=16782899").responseJSON { response in
+            print("Request: \(String(describing: response.request))")   // original url request
+            print("Response: \(String(describing: response.response))") // http url response
+            print("Result: \(response.result)")                         // response serialization result
+
+            if let json = response.result.value {
+                print("JSON: \(json)") // serialized json response
+            }
+            
+            
+        }
     }
     
     func makeButtonsRound() {
