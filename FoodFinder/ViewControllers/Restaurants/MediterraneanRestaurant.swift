@@ -16,7 +16,7 @@ class MediterraneanRestaurant: UIViewController, CLLocationManagerDelegate, MKMa
         super.viewDidLoad()
         
         
-        annotation.coordinate = CLLocationCoordinate2D(latitude: 37.777790, longitude: -122.416269)
+        annotation.coordinate = CLLocationCoordinate2D(latitude: 37.778659, longitude: -122.415717)
         mapView.addAnnotation(annotation)
         
         mapView.delegate = self
@@ -41,13 +41,13 @@ class MediterraneanRestaurant: UIViewController, CLLocationManagerDelegate, MKMa
     }
     
     @IBAction func menuButtonPressed(_ sender: Any) {
-        let url = NSURL(string: "http://amanosf.com/food/")! as URL
+        let url = NSURL(string: "http://www.gyroking.co/menu/")! as URL
         let popWebsite = SFSafariViewController(url: url)
         present(popWebsite, animated: true, completion: nil)
     }
     
     @IBAction func shareButtonPressed(_ sender: Any) {
-        let textToShare = ["Check out this Italian I found in FoodFinder: http://amanosf.com/"]
+        let textToShare = ["Check out this Italian I found in FoodFinder: http://www.gyroking.co/"]
         let shareActivityViewController = UIActivityViewController(activityItems: textToShare, applicationActivities: nil)
         activityViewController.popoverPresentationController?.sourceView = self.view // so that iPads won't crash
         // exclude some activity types from the list (optional)
@@ -56,7 +56,7 @@ class MediterraneanRestaurant: UIViewController, CLLocationManagerDelegate, MKMa
     }
     
     @IBAction func callButtonPressed(_ sender: Any) {
-        let number = "415-506-7401"
+        let number = "415-621-8313"
         guard let callFunction = URL(string: "tel://" + number) else { return }
         UIApplication.shared.open(callFunction)
     }
