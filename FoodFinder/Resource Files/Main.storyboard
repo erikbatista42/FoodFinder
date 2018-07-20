@@ -436,6 +436,7 @@
                         <viewLayoutGuide key="safeArea" id="7XV-4g-VOK"/>
                     </view>
                     <connections>
+                        <outlet property="mapView" destination="vAZ-Hq-nxf" id="JyP-hx-9Ir"/>
                         <outlet property="restaurantImageView" destination="hu9-71-8ye" id="usg-cX-VpJ"/>
                     </connections>
                 </viewController>
