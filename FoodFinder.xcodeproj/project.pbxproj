@@ -15,7 +15,7 @@
 		4C04E94B20FFEE19008EE62D /* RecepieCusineSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E94A20FFEE19008EE62D /* RecepieCusineSelectorViewController.swift */; };
 		4C04E94D20FFEEC5008EE62D /* RestaurantCusineSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E94C20FFEEC5008EE62D /* RestaurantCusineSelectorViewController.swift */; };
 		4C04E94F20FFF051008EE62D /* RecepieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E94E20FFF051008EE62D /* RecepieViewController.swift */; };
-		4C04E95120FFF065008EE62D /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E95020FFF065008EE62D /* RestaurantViewController.swift */; };
+		4C04E95120FFF065008EE62D /* ItalianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E95020FFF065008EE62D /* ItalianViewController.swift */; };
 		4C04E95320FFF5B9008EE62D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E95220FFF5B9008EE62D /* Extensions.swift */; };
 		4C04E95B2101144E008EE62D /* AmericanRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E95A2101144E008EE62D /* AmericanRecipe.swift */; };
 		4C04E95D21011459008EE62D /* ChineseRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C04E95C21011459008EE62D /* ChineseRecipe.swift */; };
@@ -44,7 +44,7 @@
 		4C04E94A20FFEE19008EE62D /* RecepieCusineSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieCusineSelectorViewController.swift; sourceTree = "<group>"; };
 		4C04E94C20FFEEC5008EE62D /* RestaurantCusineSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCusineSelectorViewController.swift; sourceTree = "<group>"; };
 		4C04E94E20FFF051008EE62D /* RecepieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieViewController.swift; sourceTree = "<group>"; };
-		4C04E95020FFF065008EE62D /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		4C04E95020FFF065008EE62D /* ItalianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItalianViewController.swift; sourceTree = "<group>"; };
 		4C04E95220FFF5B9008EE62D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4C04E95A2101144E008EE62D /* AmericanRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmericanRecipe.swift; sourceTree = "<group>"; };
 		4C04E95C21011459008EE62D /* ChineseRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseRecipe.swift; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 				FE06233921000F5C00885FF2 /* Model */,
 				4C04E9542100FD23008EE62D /* Main View */,
 				4C04E9552100FD36008EE62D /* CuisineSelectors */,
-				4C04E95020FFF065008EE62D /* RestaurantViewController.swift */,
+				4C04E95020FFF065008EE62D /* ItalianViewController.swift */,
 				4C04E94E20FFF051008EE62D /* RecepieViewController.swift */,
 				4C04E95220FFF5B9008EE62D /* Extensions.swift */,
 				4C04E956210111C8008EE62D /* ViewControllers */,
@@ -323,7 +323,7 @@
 				4C04E93920FFECEB008EE62D /* MainViewController.swift in Sources */,
 				FE06233D21000F9300885FF2 /* RestaurantModel.swift in Sources */,
 				4C04E96D210114DE008EE62D /* MexicanRestaurant.swift in Sources */,
-				4C04E95120FFF065008EE62D /* RestaurantViewController.swift in Sources */,
+				4C04E95120FFF065008EE62D /* ItalianViewController.swift in Sources */,
 				4C04E94B20FFEE19008EE62D /* RecepieCusineSelectorViewController.swift in Sources */,
 				4C04E95D21011459008EE62D /* ChineseRecipe.swift in Sources */,
 				4C04E94F20FFF051008EE62D /* RecepieViewController.swift in Sources */,
@@ -473,11 +473,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25F8K4JH5W;
+				DEVELOPMENT_TEAM = DFUU36AARG;
 				INFOPLIST_FILE = "$(SRCROOT)/FoodFinder/Resource Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nhkvk;
+				PRODUCT_BUNDLE_IDENTIFIER = kjbviy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -490,11 +490,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25F8K4JH5W;
+				DEVELOPMENT_TEAM = DFUU36AARG;
 				INFOPLIST_FILE = "$(SRCROOT)/FoodFinder/Resource Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nhkvk;
+				PRODUCT_BUNDLE_IDENTIFIER = kjbviy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

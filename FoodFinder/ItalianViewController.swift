@@ -1,0 +1,52 @@
+//
+//  RestaurantViewController.swift
+//  FoodFinder
+//
+//  Created by Maryem W Ali on 7/18/18.
+//  Copyright © 2018 Maryem W Ali. All rights reserved.
+//
+
+import Foundation
+import UIKit
+import SwiftyJSON
+import Alamofire
+import SafariServices
+
+class ItalianViewController: UIViewController {
+    
+    @IBOutlet weak var restaurantImageView: UIImageView!
+    
+     let activityViewController = UIAlertController()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        restaurantImageView.layer.cornerRadius = 10
+    restaurantImageView.clipsToBounds = true
+     
+    }
+    
+    @IBAction func menuButtonPressed(_ sender: Any) {
+        
+        let url = NSURL(string: "http://amanosf.com/food/")! as URL
+        let popWebsite = SFSafariViewController(url: url)
+        present(popWebsite, animated: true, completion: nil)
+    }
+    
+    @IBAction func shareButtonPressed(_ sender: Any) {
+        let textToShare = ["Check out this Italian I found in FoodFinder: http://amanosf.com/"]
+        let shareActivityViewController = UIActivityViewController(activityItems: textToShare, applicationActivities: nil)
+        activityViewController.popoverPresentationController?.sourceView = self.view // so that iPads won't crash
+        // exclude some activity types from the list (optional)
+        //        activityViewController.excludedActivityTypes = [ UIActivityType.airDrop, UIActivityType.postToFacebook ]
+        self.present(shareActivityViewController, animated: true, completion: nil)
+    }
+    
+    @IBAction func callButtonPressed(_ sender: Any) {
+        let number = "(415) 506-7401"
+        guard let callFunction = URL(string: "tel://" + number) else { return }
+        UIApplication.shared.open(callFunction)
+    }
+    
+    
+    
+}
