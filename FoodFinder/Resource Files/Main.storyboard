@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GPX-eZ-uDc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GPX-eZ-uDc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="ArialRoundedMTBold.ttf">
-            <string>ArialRoundedMTBold</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Home Page-->
         <scene sceneID="tne-QT-ifu">
@@ -550,13 +545,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFe-iN-JNt">
-                                <rect key="frame" x="67" y="76" width="240" height="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFe-iN-JNt">
+                                <rect key="frame" x="67" y="76" width="240" height="42"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Italian">
+                                    <fragment content="Whole-Wheat Fettuccine with Arugula Pesto">
                                         <attributes>
                                             <color key="NSColor" red="0.90980392156862744" green="0.36078431372549019" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="30" name="ArialRoundedMTBold"/>
+                                            <font key="NSFont" size="18" name="ArialRoundedMTBold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -564,17 +559,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="italianRecipe" translatesAutoresizingMaskIntoConstraints="NO" id="yRE-V7-L6f">
-                                <rect key="frame" x="67" y="126" width="240" height="128"/>
+                                <rect key="frame" x="67" y="133" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="hQC-cB-J8o"/>
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyB-5i-nlo">
-                                <rect key="frame" x="51" y="311" width="308" height="125"/>
+                                <rect key="frame" x="51" y="318" width="308" height="118"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">        - 3/4 cup whole-wheat flour                        - 3/4 cup all-purpose flourSalt                  - 3 large egg yolks                                  - 1/3 cup water</string>
+                                        <string key="content">        - 3/4 cup whole-wheat flour                           - 3/4 cup all-purpose flourSalt                  - 3 large egg yolks                                  - 1/3 cup water</string>
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -661,7 +656,7 @@ Cg
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INGREDIENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bs9-6I-VW2">
-                                <rect key="frame" x="16" y="275" width="169" height="28"/>
+                                <rect key="frame" x="16" y="282" width="169" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="Nbx-q9-A7l"/>
                                 </constraints>
@@ -678,7 +673,7 @@ Cg
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F6Y-Q8-i0t">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6Y-Q8-i0t">
                                 <rect key="frame" x="67" y="498" width="292" height="149"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -689,7 +684,7 @@ Cg
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -704,7 +699,7 @@ Cg
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -718,7 +713,7 @@ Cg
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="18" name="Helvetica"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="28" minimumLineHeight="28" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -733,7 +728,7 @@ Cg
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="18" name="Helvetica"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="28" minimumLineHeight="28" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -746,7 +741,7 @@ Cg
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -761,7 +756,7 @@ Cg
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -775,7 +770,7 @@ Cg
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="18" name="Helvetica"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="28" minimumLineHeight="28" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -790,7 +785,7 @@ Cg
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="18" name="Helvetica"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="28" minimumLineHeight="28" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -803,7 +798,7 @@ Cg
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -818,7 +813,7 @@ Cg
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -832,7 +827,7 @@ Cg
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="18" name="Helvetica"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="28" minimumLineHeight="28" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -847,7 +842,7 @@ Cg
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="18" name="Helvetica"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="28" minimumLineHeight="28" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -860,7 +855,7 @@ Cg
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -875,7 +870,7 @@ Cg
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -889,7 +884,7 @@ Cg
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="18" name="Helvetica"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="28" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -904,7 +899,7 @@ Cg
 </string>
                                         <attributes>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="18" name="Helvetica"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="28" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -920,7 +915,7 @@ Cg
                                         <attributes>
                                             <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="NSColor" red="0.15686274509803921" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="12" name="Helvetica"/>
+                                            <font key="NSFont" size="17" name="Helvetica"/>
                                             <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                 <tabStops/>
@@ -956,6 +951,8 @@ Cg
                         <viewLayoutGuide key="safeArea" id="91c-gC-hYH"/>
                     </view>
                     <connections>
+                        <outlet property="ingredientsTextView" destination="tyB-5i-nlo" id="K3h-FZ-eo1"/>
+                        <outlet property="recipeStepsTextView" destination="F6Y-Q8-i0t" id="8F3-I0-02h"/>
                         <outlet property="recipieImageView" destination="yRE-V7-L6f" id="2h0-ak-tnR"/>
                     </connections>
                 </viewController>
@@ -1658,13 +1655,13 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIj-nq-Aby">
-                                <rect key="frame" x="67" y="76" width="240" height="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIj-nq-Aby">
+                                <rect key="frame" x="67" y="76" width="240" height="42"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Chinese ">
+                                    <fragment content="Lo Mein with Mushrooms and Snow Peas ">
                                         <attributes>
                                             <color key="NSColor" red="0.90980392156862744" green="0.36078431372549019" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="30" name="ArialRoundedMTBold"/>
+                                            <font key="NSFont" size="18" name="ArialRoundedMTBold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1672,13 +1669,13 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chineseRecipe" translatesAutoresizingMaskIntoConstraints="NO" id="Ssb-mz-Onm">
-                                <rect key="frame" x="67" y="126" width="240" height="128"/>
+                                <rect key="frame" x="67" y="133" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="nTc-Ar-Jor"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4vb-Pt-b9q">
-                                <rect key="frame" x="51" y="311" width="308" height="125"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vb-Pt-b9q">
+                                <rect key="frame" x="51" y="318" width="308" height="118"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -1692,7 +1689,7 @@ Cg
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INGREDIENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vzi-95-z3p">
-                                <rect key="frame" x="16" y="275" width="169" height="28"/>
+                                <rect key="frame" x="16" y="282" width="169" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="qZg-80-os5"/>
                                 </constraints>
@@ -1709,7 +1706,7 @@ Cg
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ya-Fy-5aZ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ya-Fy-5aZ">
                                 <rect key="frame" x="67" y="498" width="292" height="149"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -1749,6 +1746,10 @@ Cg
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fyR-fs-ggL"/>
                     </view>
+                    <connections>
+                        <outlet property="chineseRecipeIngredientsTextView" destination="4vb-Pt-b9q" id="ugc-jU-JNU"/>
+                        <outlet property="chineseRecipeStepsTextView" destination="3Ya-Fy-5aZ" id="cdb-Ra-75l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g3z-RT-KqE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1763,12 +1764,12 @@ Cg
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Dr-k2-IMB">
-                                <rect key="frame" x="67" y="76" width="240" height="35"/>
+                                <rect key="frame" x="67" y="76" width="240" height="28"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="American">
+                                    <fragment content="BLT Smash-Burgers">
                                         <attributes>
                                             <color key="NSColor" red="0.90980392156862744" green="0.36078431372549019" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="30" name="ArialRoundedMTBold"/>
+                                            <font key="NSFont" size="24" name="ArialRoundedMTBold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1776,13 +1777,13 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="americanRecipe" translatesAutoresizingMaskIntoConstraints="NO" id="Why-S8-fb1">
-                                <rect key="frame" x="67" y="126" width="240" height="128"/>
+                                <rect key="frame" x="67" y="119" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="KD2-dN-iiC"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3B7-wa-yPG">
-                                <rect key="frame" x="51" y="311" width="308" height="125"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3B7-wa-yPG">
+                                <rect key="frame" x="51" y="304" width="308" height="132"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -1796,7 +1797,7 @@ Cg
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INGREDIENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPf-Vf-mlv">
-                                <rect key="frame" x="16" y="275" width="169" height="28"/>
+                                <rect key="frame" x="16" y="268" width="169" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="sUn-yf-91b"/>
                                 </constraints>
@@ -1813,7 +1814,7 @@ Cg
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IKp-Ri-vCj">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKp-Ri-vCj">
                                 <rect key="frame" x="67" y="498" width="292" height="149"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -1853,6 +1854,10 @@ Cg
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="j0K-8D-XP2"/>
                     </view>
+                    <connections>
+                        <outlet property="americanRecipeIngredientsTextView" destination="3B7-wa-yPG" id="aUX-6B-0qM"/>
+                        <outlet property="americanRecipeStepsTextView" destination="IKp-Ri-vCj" id="ZCN-ZZ-86Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ddd-kT-f7k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1866,13 +1871,13 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8lF-Pa-bdR">
-                                <rect key="frame" x="67" y="76" width="240" height="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8lF-Pa-bdR">
+                                <rect key="frame" x="67" y="76" width="240" height="42"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Mediterranean">
+                                    <fragment content="Tunisian Chicken Kebabs with Currants and Olives">
                                         <attributes>
                                             <color key="NSColor" red="0.90980392156862744" green="0.36078431372549019" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="30" name="ArialRoundedMTBold"/>
+                                            <font key="NSFont" size="18" name="ArialRoundedMTBold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1880,13 +1885,13 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mediterraneanRecipe" translatesAutoresizingMaskIntoConstraints="NO" id="UuG-Wh-keJ">
-                                <rect key="frame" x="67" y="126" width="240" height="128"/>
+                                <rect key="frame" x="67" y="133" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="E3j-cB-JNv"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aQW-Tp-LAA">
-                                <rect key="frame" x="51" y="311" width="308" height="125"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQW-Tp-LAA">
+                                <rect key="frame" x="51" y="318" width="308" height="118"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -1900,7 +1905,7 @@ Cg
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INGREDIENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvK-QK-hcX">
-                                <rect key="frame" x="16" y="275" width="169" height="28"/>
+                                <rect key="frame" x="16" y="282" width="169" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="N7d-hL-55R"/>
                                 </constraints>
@@ -1917,7 +1922,7 @@ Cg
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GWi-p5-SPL">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWi-p5-SPL">
                                 <rect key="frame" x="67" y="498" width="292" height="149"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -1957,6 +1962,10 @@ Cg
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0FR-Sh-ByH"/>
                     </view>
+                    <connections>
+                        <outlet property="mediterraneanRecipeIngredientsTextView" destination="aQW-Tp-LAA" id="WRi-Xu-fF0"/>
+                        <outlet property="mediterraneanRecipeStepsTextView" destination="GWi-p5-SPL" id="KNN-yy-xjI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kQD-bS-fkv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1970,13 +1979,13 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4o-iF-Bh1">
-                                <rect key="frame" x="67" y="76" width="240" height="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4o-iF-Bh1">
+                                <rect key="frame" x="67" y="76" width="240" height="56"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Vegan">
+                                    <fragment content="Black Bean &amp; Quinoa Salad">
                                         <attributes>
                                             <color key="NSColor" red="0.90980392156862744" green="0.36078431372549019" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="30" name="ArialRoundedMTBold"/>
+                                            <font key="NSFont" size="24" name="ArialRoundedMTBold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -1984,13 +1993,13 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="veganRecipe" translatesAutoresizingMaskIntoConstraints="NO" id="Axm-qN-zb1">
-                                <rect key="frame" x="67" y="126" width="240" height="128"/>
+                                <rect key="frame" x="67" y="147" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="TwW-js-Fqs"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Frk-hr-MY3">
-                                <rect key="frame" x="51" y="311" width="308" height="125"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Frk-hr-MY3">
+                                <rect key="frame" x="51" y="332" width="308" height="104"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -2004,7 +2013,7 @@ Cg
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INGREDIENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fog-1X-mwK">
-                                <rect key="frame" x="16" y="275" width="169" height="28"/>
+                                <rect key="frame" x="16" y="296" width="169" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="Cnb-MX-tL4"/>
                                 </constraints>
@@ -2021,7 +2030,7 @@ Cg
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GRf-GC-HU7">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRf-GC-HU7">
                                 <rect key="frame" x="67" y="498" width="292" height="149"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -2061,6 +2070,10 @@ Cg
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SeX-zR-dgx"/>
                     </view>
+                    <connections>
+                        <outlet property="veganRecipeIngredientsTextView" destination="Frk-hr-MY3" id="Pye-UB-KXn"/>
+                        <outlet property="veganRecipeStepsTextView" destination="GRf-GC-HU7" id="JGk-MZ-LhX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E9q-vj-Hss" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2075,12 +2088,12 @@ Cg
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlG-0N-SDU">
-                                <rect key="frame" x="67" y="76" width="240" height="35"/>
+                                <rect key="frame" x="67" y="76" width="240" height="28"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Mexican">
+                                    <fragment content="Carne Asada Tacos">
                                         <attributes>
                                             <color key="NSColor" red="0.90980392156862744" green="0.36078431372549019" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="30" name="ArialRoundedMTBold"/>
+                                            <font key="NSFont" size="24" name="ArialRoundedMTBold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -2088,13 +2101,13 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mexicanRecipe" translatesAutoresizingMaskIntoConstraints="NO" id="hTY-Ym-Qhv">
-                                <rect key="frame" x="67" y="126" width="240" height="128"/>
+                                <rect key="frame" x="67" y="119" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="sIH-0q-42f"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yzU-yM-CbZ">
-                                <rect key="frame" x="51" y="311" width="308" height="125"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzU-yM-CbZ">
+                                <rect key="frame" x="51" y="304" width="308" height="132"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -2108,7 +2121,7 @@ Cg
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INGREDIENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qhf-Fd-3BX">
-                                <rect key="frame" x="16" y="275" width="169" height="28"/>
+                                <rect key="frame" x="16" y="268" width="169" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="Bm1-hV-pOZ"/>
                                 </constraints>
@@ -2125,7 +2138,7 @@ Cg
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HK2-sz-MwC">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HK2-sz-MwC">
                                 <rect key="frame" x="67" y="498" width="292" height="149"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -2165,6 +2178,10 @@ Cg
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3kw-Fv-0tU"/>
                     </view>
+                    <connections>
+                        <outlet property="mexicanRecipeIngredientsTextView" destination="yzU-yM-CbZ" id="C4c-aA-Ow0"/>
+                        <outlet property="mexicanRecipeStepsTextView" destination="HK2-sz-MwC" id="gXB-JS-4tO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4nQ-c3-ThN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
