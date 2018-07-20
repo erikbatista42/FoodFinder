@@ -11,19 +11,45 @@ import UIKit
 import SwiftyJSON
 import Alamofire
 import SafariServices
+import MapKit
 
-class ItalianViewController: UIViewController {
+class ItalianViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
     
     @IBOutlet weak var restaurantImageView: UIImageView!
+    @IBOutlet weak var mapView: MKMapView!
     
      let activityViewController = UIAlertController()
+     let annotation = MKPointAnnotation()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         restaurantImageView.layer.cornerRadius = 10
     restaurantImageView.clipsToBounds = true
      
+        annotation.coordinate = CLLocationCoordinate2D(latitude: 37.777790, longitude: -122.416269)
+        mapView.addAnnotation(annotation)
+        
+        mapView.delegate = self
+        mapView.showsUserLocation = true
+//
     }
+    let newPin = MKPointAnnotation()
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        mapView.removeAnnotation(newPin)
+        
+        let location = locations.last! as CLLocation
+        
+        let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+        
+        //set region on the map
+        mapView.setRegion(region, animated: true)
+        
+        newPin.coordinate = location.coordinate
+        mapView.addAnnotation(newPin)
+    }
+
+//    }
     
     @IBAction func menuButtonPressed(_ sender: Any) {
         
@@ -42,11 +68,9 @@ class ItalianViewController: UIViewController {
     }
     
     @IBAction func callButtonPressed(_ sender: Any) {
-        let number = "(415) 506-7401"
+        let number = "415-506-7401"
         guard let callFunction = URL(string: "tel://" + number) else { return }
         UIApplication.shared.open(callFunction)
     }
-    
-    
     
 }

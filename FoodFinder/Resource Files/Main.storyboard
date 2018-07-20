@@ -431,6 +431,7 @@
                         <viewLayoutGuide key="safeArea" id="7XV-4g-VOK"/>
                     </view>
                     <connections>
+                        <outlet property="mapView" destination="vAZ-Hq-nxf" id="JyP-hx-9Ir"/>
                         <outlet property="restaurantImageView" destination="hu9-71-8ye" id="usg-cX-VpJ"/>
                     </connections>
                 </viewController>
@@ -1242,6 +1243,9 @@ Cg
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4ke-Pw-OjW"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="d3s-E9-YJn" id="KzP-XE-8FG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XZ9-c4-BC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1341,6 +1345,9 @@ Cg
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qkY-WU-bFt"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="WGn-4p-TGj" id="oqA-zZ-9wB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZUY-DF-VsO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1442,6 +1449,9 @@ Cg
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iGE-aB-CWL"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="7eS-8X-tkS" id="DaE-Zw-OhC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EIQ-yV-wRx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1542,6 +1552,9 @@ Cg
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JQ9-KV-yiE"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="GC0-5b-5TH" id="06y-oC-Sl5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SoQ-bE-sUJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1642,6 +1655,9 @@ Cg
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3RB-nu-YWt"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="9d5-gR-aL7" id="saw-PU-nb1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S9g-Tn-YF7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
