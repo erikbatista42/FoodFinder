@@ -6,7 +6,7 @@ import SafariServices
 import MapKit
 
 class VeganRestaurant: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
-    
+    //changes
     @IBOutlet weak var mapView: MKMapView!
     
     let activityViewController = UIAlertController()
