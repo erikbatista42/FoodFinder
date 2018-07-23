@@ -24,6 +24,7 @@ class RecepieCusineSelectorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         makeButtonsRound()
+        navigationController?.navigationBar.isHidden = false
     }
     
     func makeButtonsRound() {

@@ -27,7 +27,7 @@ class MainViewController: UIViewController {
         let textAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
         navigationController?.navigationBar.titleTextAttributes = textAttributes
         navigationController?.navigationBar.tintColor = .white
-        
+        navigationController?.navigationBar.isHidden = true
         cookButton.layer.cornerRadius = 10
         cookButton.clipsToBounds = true
         eatOutButton.layer.cornerRadius = 10

@@ -38,7 +38,7 @@ class RestaurantCusineSelectorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        navigationController?.navigationBar.isHidden = false
         makeButtonsRound()
         apiRequest()
         

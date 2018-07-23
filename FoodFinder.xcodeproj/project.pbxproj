@@ -30,7 +30,21 @@
 		E1090F3F770B59839F7E3B73 /* Pods_FoodFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A03DEE2B81FF09F29850B58 /* Pods_FoodFinder.framework */; };
 		FE06233B21000F8000885FF2 /* RecipieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE06233A21000F8000885FF2 /* RecipieModel.swift */; };
 		FE06233D21000F9300885FF2 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE06233C21000F9300885FF2 /* RestaurantModel.swift */; };
+		FE06233F2102868000885FF2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE06233E2102867E00885FF2 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE062343210289CC00885FF2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3A03DEE2B81FF09F29850B58 /* Pods_FoodFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +74,7 @@
 		7290DF01693E1CEBDA3E4E79 /* Pods-FoodFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodFinder/Pods-FoodFinder.release.xcconfig"; sourceTree = "<group>"; };
 		FE06233A21000F8000885FF2 /* RecipieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipieModel.swift; sourceTree = "<group>"; };
 		FE06233C21000F9300885FF2 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		FE06233E2102867E00885FF2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +100,7 @@
 		4C04E92A20FFECEB008EE62D = {
 			isa = PBXGroup;
 			children = (
+				FE06233E2102867E00885FF2 /* Default-568h@2x.png */,
 				4C04E93520FFECEB008EE62D /* FoodFinder */,
 				4C04E93420FFECEB008EE62D /* Products */,
 				D7CEA2E5B4D69B5B4CF021A4 /* Pods */,
@@ -215,6 +231,7 @@
 				4C04E93020FFECEB008EE62D /* Frameworks */,
 				4C04E93120FFECEB008EE62D /* Resources */,
 				65FA7BDF71033157BC672F54 /* [CP] Embed Pods Frameworks */,
+				FE062343210289CC00885FF2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C04E94120FFECEB008EE62D /* LaunchScreen.storyboard in Resources */,
+				FE06233F2102868000885FF2 /* Default-568h@2x.png in Resources */,
 				4C04E93E20FFECEB008EE62D /* Assets.xcassets in Resources */,
 				4C04E94920FFED20008EE62D /* Main.storyboard in Resources */,
 			);
